@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CONTACTO</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/formulario.css">	
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	  
+	<!--Encabezado (logo)-->
+	<div class="container" align="center"><img src="images/logo.png" class="img-fluid" alt="Responsive image" width="700"></div> 	 
+	  
+	<!--menu(navar)-->
+  <div class="container" align="center">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">  
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto">
+				<li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>				     
+				<li class="nav-item"><a class="nav-link" href="#">SERVICIOS</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">PROYECTOS</a></li>
+				<li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+				</ul>    
+				</div>
+		</nav>
+	</div>
+	  
+<!--cuerpo de pagina (formulario9-->
+  <div class="container">
+	  <p align="center" style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'"><h3 style="color: #2C3E50" align="center"><b>FORMULARIO DE CONTACTO</b></h3></p>
+    <p align="center">Para poder atenderlos de una manera personalizada no dude en enviarnos un mensaje y le responderemos a la brevedad posible</p>
+  </div>
+<div class="container">
+    <form action="enviar.php" method="post">
+		  <input type="text" name="Nombre" placeholder="Nombre" required>
+		  <input type="text" name="correo" placeholder="Correo" required>
+		  <input type="text" name="telefono" placeholder="Teléfono" required>
+		  <textarea name="mensaje" placeholder="escriba aquí su mensaje" required></textarea>
+		  <input type="submit" value="enviar" id="botton">		  
+	  </form>
+	  </div>
+	<br>
+	<div class="container" align="center">
+		<p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'"><h4 style="color: #2C3E50">HORARIO DE ATENCIÓN</h4></p><p>Lunes - Viernes de 8am a 7pm | Sabados de 8am a 2pm</p>
+	</div>
+	
+  <!--pie de pagina (footer)-->
+	  
+	<div class="container" align="center">
+		<footer class="text-center footer-style">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 footer-col"><img src="images/logo_2.png" alt="logo" width="300"></div>
+						<div class="col-md-4 footer-col">
+						<br>
+						<ul class="list-inline">
+						<li>
+						<a  target="_blank" href="https://www.facebook.com/PILQAY/" class="btn-social btn-outline">
+						<img src="images/facebook.jpg" alt=facebook width="40"><i class="fa fa-fw fa-facebook"></i></a></li> 
+						<br>                   
+						<a  target="_blank" href="https://es.linkedin.com/company/pilqay-gerencia-y-construcci%C3%B3n-sac" class="btn-social btn-outline">
+						<img src="images/Linkedin.png" alt="linkedin" width="40"><i class="fa fa-fw fa-linkedin"></i></a></li>                    
+						</ul>
+						</div>
+					<div class="col-md-4 footer-col">
+						<br>
+						<p> Av. República de Venezuela 1620, Cercado de Lima 15082</p>
+						<p>informes@pilqay.com.pe</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+  </div>
+
+   <!-- JQuery (necesario para los complementos de JavaScript de Bootstrap) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Incluya todos los complementos compilados (a continuación), o incluya archivos individuales según sea necesario -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+form {
+	width: 600px;
+	margin: auto;
+	background: #DFDFDF;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea {
+	min-height: 100px;
+	max-height: 400px;
+	max-width: 100%;
+}
+
+#boton {
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
+
+#boton:hover {
+	cursor: pointer;
+}
+
+@media (max-width:480px) {
+	form{
+		width: 100%;
+	}
+}
